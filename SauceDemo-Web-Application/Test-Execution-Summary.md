@@ -89,3 +89,27 @@ The baseline functional testing using `standard_user` was completed successfully
 Exploratory testing using `problem_user` identified seven confirmed defects affecting product display, product navigation, cart functionality, and checkout.
 
 Testing is still in progress because the remaining purpose-built SauceDemo users have not yet been evaluated.
+
+## Performance Glitch User
+
+Username: `performance_glitch_user`
+
+### Observations
+
+- Login completed successfully.
+- Products page loaded successfully.
+- Product selection opened the correct Product Details page.
+- Back to Products navigation worked but showed a noticeable delay compared with `standard_user`.
+- Continue Shopping navigation from the Shopping Cart also showed a noticeable delay compared with `standard_user`.
+
+### Result
+
+Functional behavior was successful during the observed flows.
+
+A noticeable response delay was observed during navigation compared with `standard_user`. This has been recorded as a performance observation rather than a confirmed performance defect because no response-time measurements were taken.
+
+### Additional Observations
+
+- Add to Cart from the Products page worked immediately.
+- Shopping Cart opened successfully without a noticeable issue.
+- No functional defect was identified during the tested flow.
