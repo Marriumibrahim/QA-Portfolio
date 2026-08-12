@@ -1,0 +1,47 @@
+# BUG-011 — Cart Icon Incorrectly Positioned Across Multiple Pages
+
+## Summary
+
+When logged in as `visual_user`, the Shopping Cart icon is incorrectly positioned across multiple pages of the application.
+
+## Environment
+
+| Item | Details |
+|------|---------|
+| Application | SauceDemo Web Application |
+| User | visual_user |
+| Browser | Google Chrome |
+| Operating System | Windows 11 |
+| Test Type | Visual / UI Testing |
+
+## Preconditions
+
+- User is logged in as `visual_user`.
+
+## Steps to Reproduce
+
+1. Log in using `visual_user`.
+2. Navigate through the Products page.
+3. Open a Product Details page.
+4. Open the Shopping Cart.
+5. Observe the position of the Shopping Cart icon on each page.
+
+## Expected Result
+
+The Shopping Cart icon should remain correctly positioned and consistently aligned with the application header/navigation across all pages.
+
+## Actual Result
+
+The Shopping Cart icon is incorrectly positioned across multiple pages.
+
+## Severity
+
+Low
+
+## Priority
+
+Medium
+
+## Status
+
+New
