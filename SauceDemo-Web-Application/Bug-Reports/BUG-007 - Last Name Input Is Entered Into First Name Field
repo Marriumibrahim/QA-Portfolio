@@ -1,0 +1,56 @@
+# BUG-007 — Last Name Input Is Redirected to First Name Field and Characters Replace Previous Input
+
+## Summary
+
+When logged in as `problem_user`, entering a Last Name during checkout incorrectly places the input into the First Name field. Each newly entered character replaces the previously entered character instead of being appended.
+
+## Environment
+
+| Item | Details |
+|------|---------|
+| Application | SauceDemo Web Application |
+| User | problem_user |
+| Browser | Google Chrome |
+| Operating System | Windows 11 |
+| Test Type | Functional Testing |
+
+## Preconditions
+
+- SauceDemo application is accessible.
+- User is logged in as `problem_user`.
+- A product has been added to the Shopping Cart.
+
+## Steps to Reproduce
+
+1. Log in using `problem_user`.
+2. Add a product to the Shopping Cart.
+3. Click Checkout.
+4. Enter a valid First Name.
+5. Click the Last Name field.
+6. Type a Last Name one character at a time.
+7. Observe the First Name and Last Name fields.
+
+## Expected Result
+
+- Characters entered in the Last Name field should appear in the Last Name field.
+- Characters should be appended sequentially to form the entered value.
+- The First Name field should remain unchanged.
+
+## Actual Result
+
+- Characters entered into the Last Name field appear in the First Name field.
+- Each newly entered character replaces the previously entered character in the First Name field.
+- The Last Name field remains empty.
+- The user is unable to enter a valid Last Name and cannot complete checkout.
+
+## Severity
+
+High
+
+## Priority
+
+High
+
+## Status
+
+New
