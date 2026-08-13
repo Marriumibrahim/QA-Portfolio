@@ -240,6 +240,8 @@ Test Execution Summary
 Test Summary Report
       ↓
 Regression Testing
+```
+
 ---
 
 ## Tools Used
@@ -279,11 +281,6 @@ It does not contain confidential, proprietary, or client-owned information.
 
 ---
 
-## Author
-
-**Marrium Ibrahim**
-
-Software Quality Assurance Engineer
 ## Author
 
 **Marrium Ibrahim**
