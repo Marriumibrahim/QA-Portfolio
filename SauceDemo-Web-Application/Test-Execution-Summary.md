@@ -101,7 +101,7 @@ The following defects were identified:
 | BUG-003 | Product Details | Add to Cart does not work on Product Details page | Medium | Medium |
 | BUG-004 | Shopping Cart | Cart badge count does not match cart contents | Medium | Medium |
 | BUG-005 | Product Details | Fleece Jacket opens incorrect ITEM NOT FOUND page | High | High |
-| BUG-009 | Product Details | Remove button does not work on Product Details page | Medium | Medium |
+| BUG-006 | Product Details | Remove button does not work on Product Details page | Medium | Medium |
 | BUG-007 | Checkout | Last Name input is redirected to First Name field | High | High |
 
 ### Result
@@ -174,8 +174,8 @@ The sorting functionality displayed:
 
 | Bug ID | Defect | Severity |
 |--------|--------|----------|
-| BUG-010 | Last Name field does not accept input | High |
-| BUG-008 | Checkout continues without required Last Name | High |
+| BUG-008 | Last Name field does not accept input | High |
+| BUG-009 | Checkout continues without required Last Name | High |
 
 Additional observations were recorded during exploratory testing and should be considered during defect review.
 
@@ -222,8 +222,8 @@ The current defect log contains **16 documented defects**.
 
 | Severity | Number of Defects |
 |----------|------------------:|
-| High | 6 |
-| Medium | 8 |
+| High | 5 |
+| Medium | 9 |
 | Low | 2 |
 | **Total** | **16** |
 
