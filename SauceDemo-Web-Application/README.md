@@ -191,7 +191,7 @@ Regression testing should also be performed after defect fixes.
 
 ### Bug Reports
 
-All documented defects are available in the [`Bug-Reports`](Bug-Reports/) directory.
+📁 [View all 16 documented bug reports](Bug-Reports/) directory.
 
 The following defects were identified and documented during testing:
 
