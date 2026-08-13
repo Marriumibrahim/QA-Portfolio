@@ -260,8 +260,8 @@ Targeted exploratory testing of the SauceDemo purpose-built accounts identified 
 
 A total of 16 defects have been documented:
 
-- 6 High severity
-- 8 Medium severity
+- 5 High severity
+- 9 Medium severity
 - 2 Low severity
 
 The most significant issues affect product navigation, checkout functionality, product information, and cart behavior.
