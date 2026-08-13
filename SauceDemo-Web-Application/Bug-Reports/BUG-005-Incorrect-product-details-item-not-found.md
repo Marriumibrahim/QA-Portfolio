@@ -1,4 +1,4 @@
-# BUG-006 — Fleece Jacket Opens Incorrect Item Not Found Details
+# BUG-005 — Fleece Jacket Opens Incorrect Item Not Found Details
 
 ## Summary
 
