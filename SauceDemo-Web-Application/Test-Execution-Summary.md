@@ -7,8 +7,8 @@
 | Project | SauceDemo Web Application |
 | Application | SauceDemo |
 | Test Type | Manual Functional, Exploratory & Visual Testing |
-| Primary Test Account | `standard_user` |
-| Additional Test Accounts | `locked_out_user`, `problem_user`, `performance_glitch_user`, `error_user`, `visual_user` |
+| Primary Test User | `standard_user` |
+| Additional Test Users | `locked_out_user`, `problem_user`, `performance_glitch_user`, `error_user`, `visual_user` |
 | Browser | Google Chrome |
 | Operating System | Windows 11 |
 | Execution Status | Completed |
@@ -17,29 +17,29 @@
 
 ## 2. Test Execution Overview
 
-Testing was performed using the SauceDemo application to validate core functionality and identify user-specific functional, performance, and visual issues.
+Testing was performed on the SauceDemo web application to validate core functionality and identify user-specific functional, performance, and visual issues.
 
 The `standard_user` account was used as the baseline account for executing the planned functional test cases.
 
-The additional SauceDemo test accounts were then evaluated using targeted exploratory testing to identify account-specific application behavior.
+The additional purpose-built SauceDemo accounts were tested separately using targeted exploratory testing.
 
 ---
 
-## 3. Standard User – Functional Test Execution
+## 3. Standard User – Functional Testing
 
 The `standard_user` account was used to execute the planned functional test cases covering:
 
 - Login
 - Product Listing
-- Product Details
 - Product Sorting
+- Product Details
 - Shopping Cart
 - Checkout
 - Order Completion
 - Order Receipt / PDF Generation
 
 | Metric | Result |
-|--------|--------:|
+|--------|-------:|
 | Planned Test Cases | 40 |
 | Executed | 40 |
 | Passed | 40 |
@@ -51,17 +51,15 @@ The `standard_user` account was used to execute the planned functional test case
 
 All 40 planned functional test cases executed with `standard_user` passed successfully.
 
-The `standard_user` account was therefore used as the baseline for comparison with the purpose-built SauceDemo accounts.
-
 ---
 
 # 4. Purpose-Built User Testing
 
 ## 4.1 `locked_out_user`
 
-### Test Objective
+### Objective
 
-Verify the behavior of an account that is intentionally locked out.
+Verify that a locked-out user cannot access the application.
 
 ### Result
 
@@ -69,8 +67,6 @@ Login was attempted using:
 
 - Username: `locked_out_user`
 - Password: `secret_sauce`
-
-### Actual Result
 
 The application displayed:
 
@@ -82,27 +78,23 @@ The user was not allowed to log in.
 
 **Pass**
 
-The observed behavior is consistent with the expected purpose of the locked-out test account.
-
 ---
 
 ## 4.2 `problem_user`
 
 Targeted exploratory testing was performed using `problem_user`.
 
-### Key Findings
+### Confirmed Defects
 
-The following defects were identified:
-
-| Bug ID | Module | Defect | Severity | Priority |
-|--------|--------|---------|----------|----------|
-| BUG-001 | Product Listing | Incorrect product images displayed | Medium | Medium |
-| BUG-002 | Product Details | Backpack opens Fleece Jacket details | High | High |
-| BUG-003 | Product Details | Add to Cart does not work on Product Details page | Medium | Medium |
-| BUG-004 | Shopping Cart | Cart badge count does not match cart contents | Medium | Medium |
-| BUG-005 | Product Details | Fleece Jacket opens incorrect ITEM NOT FOUND page | High | High |
-| BUG-006 | Product Details | Remove button does not work on Product Details page | Medium | Medium |
-| BUG-007 | Checkout | Last Name input is redirected to First Name field | High | High |
+| Bug ID | Module | Defect | Severity |
+|--------|--------|---------|----------|
+| BUG-001 | Product Listing | All products display the same dog image | Medium |
+| BUG-002 | Product Details | Sauce Labs Backpack opens Sauce Labs Fleece Jacket details | High |
+| BUG-003 | Product Details | Add to Cart does not work on Product Details page | Medium |
+| BUG-004 | Shopping Cart | Cart badge count does not match cart contents | Medium |
+| BUG-005 | Product Details | Sauce Labs Fleece Jacket opens incorrect ITEM NOT FOUND page | High |
+| BUG-006 | Product Details | Remove button does not remove product | Medium |
+| BUG-007 | Checkout | Last Name input is redirected to First Name field | High |
 
 ### Result
 
@@ -110,9 +102,9 @@ The following defects were identified:
 
 ---
 
-# 5. `performance_glitch_user`
+## 4.3 `performance_glitch_user`
 
-Targeted functional and performance observations were performed using `performance_glitch_user`.
+Targeted functional and performance testing was performed using `performance_glitch_user`.
 
 ### Functional Results
 
@@ -127,7 +119,7 @@ Targeted functional and performance observations were performed using `performan
 
 ### Performance Observation
 
-A noticeable response delay was observed when:
+A noticeable delay was observed when:
 
 - Returning to the Products page from Product Details.
 - Selecting Continue Shopping from the Shopping Cart.
@@ -136,52 +128,52 @@ The actions eventually completed successfully.
 
 ### Result
 
-**Functional testing: Pass**
+**Functional testing passed.**
 
-**Performance observation recorded.**
-
-No confirmed performance defect was raised because response times were not formally measured.
+A performance observation was recorded. No confirmed performance defect was raised because response times were not formally measured.
 
 ---
 
-# 6. `error_user`
+## 4.4 `error_user`
 
 Targeted exploratory testing was performed using `error_user`.
 
-### Key Findings
+### Key Observations
 
-| Area | Observation | Result |
-|------|-------------|--------|
-| Login | Login successful | Pass |
-| Products | Six products displayed | Pass |
-| Product Images | Broken image icons displayed | Defect |
-| Add to Cart | Product added successfully | Pass |
-| Remove | Remove button does not work | Defect |
-| Product Details | Product details not displayed correctly | Defect |
-| Sorting | Sorting fails and error message is displayed | Defect |
-| Last Name | Last Name field does not accept input | Defect |
-| Checkout Continue | Checkout proceeds without required Last Name | Defect |
-| Finish | Finish button does not complete order | Defect |
-| Cancel | Cancel redirects to Products page | Defect |
+| Area | Result |
+|------|--------|
+| Login | Pass |
+| Products Page | 6 products displayed |
+| Product Images | Broken image icons observed |
+| Add to Cart | Pass |
+| Remove | Failed |
+| Product Details | Incorrect product information observed |
+| Sorting | Failed with application error message |
+| Last Name | Unable to enter Last Name |
+| Continue | Checkout proceeded without Last Name |
+| Finish | No response |
+| Cancel | Redirected to Products page |
 
-### Error Message Observed
-
-The sorting functionality displayed:
+### Sorting Error Observed
 
 > "Sorting is broken! This error has been reported to Backtrace."
 
-### Confirmed Defects
+### Confirmed Defects Documented
 
-| Bug ID | Defect | Severity |
-|--------|--------|----------|
-| BUG-008 | Last Name field does not accept input | High |
-| BUG-009 | Checkout continues without required Last Name | High |
+| Bug ID | Module | Defect | Severity |
+|--------|--------|---------|----------|
+| BUG-008 | Checkout | Last Name field does not accept input | High |
+| BUG-009 | Checkout | Checkout continues without required Last Name | High |
 
-Additional observations were recorded during exploratory testing and should be considered during defect review.
+### Result
+
+**2 defects documented as separate bug reports.**
+
+Other observations were recorded during exploratory testing but were not assigned separate bug IDs in the current defect log.
 
 ---
 
-# 7. `visual_user`
+## 4.5 `visual_user`
 
 Visual and UI-focused testing was performed using `visual_user`.
 
@@ -189,9 +181,9 @@ Visual and UI-focused testing was performed using `visual_user`.
 
 | Bug ID | Module | Defect | Severity |
 |--------|--------|---------|----------|
-| BUG-010 | Product Listing | Incorrect/wrong-sized Sauce Labs Backpack image | Medium |
+| BUG-010 | Product Listing | Incorrect product image displayed for Sauce Labs Backpack | Medium |
 | BUG-011 | Navigation | Cart icon incorrectly positioned across pages | Low |
-| BUG-012 | Product Listing | Inconsistent product heading alignment | Low |
+| BUG-012 | Product Listing | Product headings have inconsistent alignment | Low |
 | BUG-013 | Product Listing | Test.allTheThings() Add to Cart button overflows product card | Medium |
 | BUG-014 | Product Details | Add to Cart button incorrectly positioned | Medium |
 | BUG-015 | Shopping Cart | Checkout button incorrectly positioned | Medium |
@@ -199,7 +191,7 @@ Visual and UI-focused testing was performed using `visual_user`.
 
 ### Additional Visual Checks
 
-The following areas were checked and no additional visual issues were observed:
+The following areas were checked without identifying additional visual defects:
 
 - Checkout Overview
 - Payment Information
@@ -216,9 +208,9 @@ The following areas were checked and no additional visual issues were observed:
 
 ---
 
-# 8. Defect Summary
+# 5. Defect Summary
 
-The current defect log contains **16 documented defects**.
+A total of **16 defects** have been documented in the bug reports.
 
 | Severity | Number of Defects |
 |----------|------------------:|
@@ -227,17 +219,47 @@ The current defect log contains **16 documented defects**.
 | Low | 2 |
 | **Total** | **16** |
 
-### Severity Distribution
+### High Severity
 
-- **High:** BUG-002, BUG-005, BUG-007, BUG-008, BUG-009
-- **Medium:** BUG-001, BUG-003, BUG-004, BUG-006, BUG-010, BUG-013, BUG-014, BUG-015, BUG-016
-- **Low:** BUG-011, BUG-012
+- BUG-002
+- BUG-005
+- BUG-007
+- BUG-008
+- BUG-009
 
-> Note: Severity should be reviewed again during formal defect triage if additional business-impact information becomes available.
+### Medium Severity
+
+- BUG-001
+- BUG-003
+- BUG-004
+- BUG-006
+- BUG-010
+- BUG-013
+- BUG-014
+- BUG-015
+- BUG-016
+
+### Low Severity
+
+- BUG-011
+- BUG-012
 
 ---
 
-# 9. Overall Test Status
+# 6. Defect Distribution by User
+
+| User | Documented Defects |
+|------|-------------------:|
+| `problem_user` | 7 |
+| `error_user` | 2 |
+| `visual_user` | 7 |
+| `locked_out_user` | 0 |
+| `performance_glitch_user` | 0 |
+| **Total** | **16** |
+
+---
+
+# 7. Overall Testing Status
 
 | Test Area | Status |
 |-----------|--------|
@@ -252,20 +274,20 @@ The current defect log contains **16 documented defects**.
 
 ---
 
-# 10. Overall Conclusion
+# 8. Overall Conclusion
 
-The planned baseline functional testing using `standard_user` was completed with all 40 test cases passing.
+The planned baseline functional testing using `standard_user` was completed successfully, with all 40 planned test cases passing.
 
-Targeted exploratory testing of the SauceDemo purpose-built accounts identified multiple functional, UI, and user-specific defects.
+Targeted exploratory testing of the purpose-built SauceDemo users identified functional and visual issues that were not observed during the baseline `standard_user` execution.
 
-A total of 16 defects have been documented:
+A total of **16 defects** have been documented:
 
-- 5 High severity
-- 9 Medium severity
-- 2 Low severity
+- **5 High severity**
+- **9 Medium severity**
+- **2 Low severity**
 
-The most significant issues affect product navigation, checkout functionality, product information, and cart behavior.
+The most significant issues affect product navigation, product information, checkout validation, and shopping cart functionality.
 
-The application demonstrates successful baseline functionality for `standard_user`, but the identified defects require investigation and retesting before considering the application fully stable across all supported user scenarios.
+The application demonstrated successful baseline functionality for `standard_user`; however, the documented defects require investigation and retesting before the application can be considered fully stable across the tested user scenarios.
 
-Regression testing should be performed after the identified defects are fixed.
+Regression testing should be performed after defect fixes are implemented.
