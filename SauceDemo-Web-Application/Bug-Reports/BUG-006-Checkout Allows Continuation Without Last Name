@@ -1,0 +1,40 @@
+# BUG-006 — Checkout Continues Without Required Last Name
+
+## Summary
+
+When logged in as `error_user`, the checkout process allows the user to continue to the Checkout Overview page even though the required Last Name field is empty.
+
+## Preconditions
+
+- User is logged in as `error_user`.
+- A product is available in the Shopping Cart.
+
+## Steps to Reproduce
+
+1. Log in using `error_user`.
+2. Add a product to the Shopping Cart.
+3. Click Checkout.
+4. Enter a valid First Name.
+5. Leave the Last Name field empty.
+6. Enter a valid Postal Code.
+7. Click Continue.
+
+## Expected Result
+
+An error message such as **"Last Name is required"** should be displayed and the user should remain on the Checkout Information page.
+
+## Actual Result
+
+The user is allowed to proceed to the Checkout Overview page even though the Last Name field is empty.
+
+## Severity
+
+High
+
+## Priority
+
+High
+
+## Status
+
+New
