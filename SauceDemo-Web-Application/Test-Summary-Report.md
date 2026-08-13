@@ -149,7 +149,7 @@ Core functionality such as:
 - Order completion
 - PDF order generation
 
-worked as expected for the standard user.
+covered by the baseline functional test suite passed successfully for `standard_user`.
 
 ### User-Specific Issues
 
