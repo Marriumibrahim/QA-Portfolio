@@ -182,34 +182,35 @@ Regression testing should also be performed after defect fixes.
 
 ### Test Documentation
 
-- [Test Plan](test-plan.md)
-- [Test Scenarios](test-scenarios.md)
-- [Test Cases](test-cases.md)
-- [Test Execution Summary](test-execution-summary.md)
-- [Test Summary Report](test-summary-report.md)
+- [Test Plan](Testplan.md)
+- [Test Scenarios](Test-Scenarios.md)
+- [Test Cases](Testcases.md)
+- [Application Study](Application-Study.md)
+- [Test Execution Summary](Test-Execution-Summary.md)
+- [Test Summary Report](Test-summary-report.md)
 
 ### Bug Reports
 
-All documented defects are available in the [`bug-reports`](bug-reports/) directory.
+All documented defects are available in the [`Bug-Reports`](Bug-Reports/) directory.
 
-The project contains:
+The following defects were identified and documented during testing:
 
-- BUG-001
-- BUG-002
-- BUG-003
-- BUG-004
-- BUG-005
-- BUG-006
-- BUG-007
-- BUG-008
-- BUG-009
-- BUG-010
-- BUG-011
-- BUG-012
-- BUG-013
-- BUG-014
-- BUG-015
-- BUG-016
+1. [BUG-001 – Incorrect Product Images](Bug-Reports/BUG-001-Incorrect-product-images.md)
+2. [BUG-002 – Wrong Product Details](Bug-Reports/BUG-002-Wrong-product-details.md)
+3. [BUG-003 – Add to Cart on Product Details](Bug-Reports/BUG-003-Add-to-cart-product-details.md)
+4. [BUG-004 – Cart Badge Count Not Updated](Bug-Reports/BUG-004-Cart-badge-count-not-updated.md)
+5. [BUG-005 – Incorrect Product Details / ITEM NOT FOUND](Bug-Reports/BUG-005-incorrect-product-details-item-not-found.md)
+6. [BUG-006 – Remove Button Not Working](Bug-Reports/BUG-006-Remove-button-not-working.md)
+7. [BUG-007 – Last Name Input Entered Into First Name Field](Bug-Reports/BUG-007%20-%20Last%20Name%20Input%20Is%20Entered%20Into%20First%20Name%20Field)
+8. [BUG-008 – Last Name Field Does Not Accept Input](Bug-Reports/BUG-008-last-name-field-does-not-accept-input.md)
+9. [BUG-009 – Checkout Continues Without Last Name](Bug-Reports/BUG-009-checkout-continues-without-last-name.md)
+10. [BUG-010 – Incorrect Product Image](Bug-Reports/BUG-010-incorrect-product-image.md)
+11. [BUG-011 – Cart Icon Incorrectly Positioned](Bug-Reports/BUG-011-Cart%20Icon%20Incorrectly%20Positioned%20Across%20Multiple%20Pages)
+12. [BUG-012 – Inconsistent Product Heading Alignment](Bug-Reports/BUG-012-Inconsistent-product-heading-alignment.md)
+13. [BUG-013 – Add to Cart Button Overflow](Bug-Reports/BUG-013-Add-to-cart-button-overflow%5C.md)
+14. [BUG-014 – Add to Cart Position on Product Details](Bug-Reports/BUG-014-Add-to-cart-position-product-details.md)
+15. [BUG-015 – Checkout Button Incorrect Position](Bug-Reports/BUG-015-Checkout-button-incorrect-position.md)
+16. [BUG-016 – Quantity / Description Column Issue](Bug-Reports/BUG-016-Quantity-description-col.md)
 
 **Total: 16 documented defects**
 
