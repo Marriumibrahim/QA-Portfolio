@@ -1,4 +1,4 @@
-# BUG-006 — Remove Button Does Not Remove Product from Cart on Product Details Page
+# BUG-009 — Remove Button Does Not Remove Product from Cart on Product Details Page
 
 ## Summary
 
