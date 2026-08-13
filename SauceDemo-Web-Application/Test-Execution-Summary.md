@@ -174,8 +174,8 @@ The sorting functionality displayed:
 
 | Bug ID | Defect | Severity |
 |--------|--------|----------|
-| BUG-008 | Last Name field does not accept input | High |
-| BUG-009 | Checkout continues without required Last Name | High |
+| BUG-010 | Last Name field does not accept input | High |
+| BUG-008 | Checkout continues without required Last Name | High |
 
 Additional observations were recorded during exploratory testing and should be considered during defect review.
 
