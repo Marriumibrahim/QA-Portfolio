@@ -108,9 +108,9 @@ A total of **16 defects** were documented during testing.
 
 | Severity | Count |
 |---|---:|
-| 🔴 High | 5 |
-| 🟠 Medium | 9 |
-| 🟢 Low | 2 |
+|  High | 5 |
+|  Medium | 9 |
+|  Low | 2 |
 | **Total** | **16** |
 
 ### Defect Distribution
