@@ -1,5 +1,7 @@
 ## Login Test Cases
 
+**Note:** The 40 baseline functional test cases were executed using standard_user. Additional exploratory and user-specific testing was performed using the purpose-built SauceDemo accounts. Defects identified during exploratory testing are documented separately in the Bug Reports section.
+
 | Test Case ID | Module | Test Case | Preconditions | Test Steps | Test Data | Expected Result | Actual Result | Status |
 |---|---|---|---|---|---|---|---|---|
 | TC-LOGIN-001 | Login | Login with valid credentials | Login page accessible; valid credentials available | 1. Open SauceDemo. 2. Enter valid username and password. 3. Click Login. | Valid SauceDemo credentials | User is successfully logged in and redirected to the Products page. | User was successfully logged in and redirected to the Products page. | Pass |
