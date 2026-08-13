@@ -182,12 +182,12 @@ Regression testing should also be performed after defect fixes.
 
 ### Test Documentation
 
-- [Test Plan](Testplan.md)
+- [Test Plan](Test-Plan.md)
 - [Test Scenarios](Test-Scenarios.md)
-- [Test Cases](Testcases.md)
+- [Test Cases](Test-Cases.md)
 - [Application Study](Application-Study.md)
 - [Test Execution Summary](Test-Execution-Summary.md)
-- [Test Summary Report](Test-summary-report.md)
+- [Test Summary Report](Test-Summary-Report.md)
 
 ### Bug Reports
 
