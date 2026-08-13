@@ -195,22 +195,22 @@ All documented defects are available in the [`Bug-Reports`](Bug-Reports/) direct
 
 The following defects were identified and documented during testing:
 
-1. [BUG-001 – Incorrect Product Images](Bug-Reports/BUG-001-Incorrect-product-images.md)
-2. [BUG-002 – Wrong Product Details](Bug-Reports/BUG-002-Wrong-product-details.md)
-3. [BUG-003 – Add to Cart on Product Details](Bug-Reports/BUG-003-Add-to-cart-product-details.md)
-4. [BUG-004 – Cart Badge Count Not Updated](Bug-Reports/BUG-004-Cart-badge-count-not-updated.md)
-5. [BUG-005 – Incorrect Product Details / ITEM NOT FOUND](Bug-Reports/BUG-005-incorrect-product-details-item-not-found.md)
-6. [BUG-006 – Remove Button Not Working](Bug-Reports/BUG-006-Remove-button-not-working.md)
-7. [BUG-007 – Last Name Input Entered Into First Name Field](Bug-Reports/BUG-007%20-%20Last%20Name%20Input%20Is%20Entered%20Into%20First%20Name%20Field)
-8. [BUG-008 – Last Name Field Does Not Accept Input](Bug-Reports/BUG-008-last-name-field-does-not-accept-input.md)
-9. [BUG-009 – Checkout Continues Without Last Name](Bug-Reports/BUG-009-checkout-continues-without-last-name.md)
-10. [BUG-010 – Incorrect Product Image](Bug-Reports/BUG-010-incorrect-product-image.md)
-11. [BUG-011 – Cart Icon Incorrectly Positioned](Bug-Reports/BUG-011-Cart%20Icon%20Incorrectly%20Positioned%20Across%20Multiple%20Pages)
-12. [BUG-012 – Inconsistent Product Heading Alignment](Bug-Reports/BUG-012-Inconsistent-product-heading-alignment.md)
-13. [BUG-013 – Add to Cart Button Overflow](Bug-Reports/BUG-013-Add-to-cart-button-overflow%5C.md)
-14. [BUG-014 – Add to Cart Position on Product Details](Bug-Reports/BUG-014-Add-to-cart-position-product-details.md)
-15. [BUG-015 – Checkout Button Incorrect Position](Bug-Reports/BUG-015-Checkout-button-incorrect-position.md)
-16. [BUG-016 – Quantity / Description Column Issue](Bug-Reports/BUG-016-Quantity-description-col.md)
+1. [BUG-001 – Incorrect Product Images]
+2. [BUG-002 – Wrong Product Details]
+3. [BUG-003 – Add to Cart on Product Details]
+4. [BUG-004 – Cart Badge Count Not Updated]
+5. [BUG-005 – Incorrect Product Details / ITEM NOT FOUND]
+6. [BUG-006 – Remove Button Not Working]
+7. [BUG-007 – Last Name Input Entered Into First Name Field]
+8. [BUG-008 – Last Name Field Does Not Accept Input]
+9. [BUG-009 – Checkout Continues Without Last Name]
+10. [BUG-010 – Incorrect Product Image]
+11. [BUG-011 – Cart Icon Incorrectly Positioned]
+12. [BUG-012 – Inconsistent Product Heading Alignment]
+13. [BUG-013 – Add to Cart Button Overflow]
+14. [BUG-014 – Add to Cart Position on Product Details]
+15. [BUG-015 – Checkout Button Incorrect Position]
+16. [BUG-016 – Quantity / Description Column Issue]
 
 **Total: 16 documented defects**
 
