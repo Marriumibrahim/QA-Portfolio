@@ -1,3 +1,5 @@
+# BUG-005 — Last Name Field Does Not Accept Input
+
 ## Summary
 
 When logged in as `error_user`, the Last Name field on the Checkout Information page does not accept user input.
