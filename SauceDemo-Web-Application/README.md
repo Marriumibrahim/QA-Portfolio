@@ -191,26 +191,26 @@ Regression testing should also be performed after defect fixes.
 
 ### Bug Reports
 
-📁 [View all 16 documented bug reports](Bug-Reports/) directory.
+📁 [View all 16 documented bug reports](Bug-Reports/)
 
 The following defects were identified and documented during testing:
 
-1. [BUG-001 – Incorrect Product Images]
-2. [BUG-002 – Wrong Product Details]
-3. [BUG-003 – Add to Cart on Product Details]
-4. [BUG-004 – Cart Badge Count Not Updated]
-5. [BUG-005 – Incorrect Product Details / ITEM NOT FOUND]
-6. [BUG-006 – Remove Button Not Working]
-7. [BUG-007 – Last Name Input Entered Into First Name Field]
-8. [BUG-008 – Last Name Field Does Not Accept Input]
-9. [BUG-009 – Checkout Continues Without Last Name]
-10. [BUG-010 – Incorrect Product Image]
-11. [BUG-011 – Cart Icon Incorrectly Positioned]
-12. [BUG-012 – Inconsistent Product Heading Alignment]
-13. [BUG-013 – Add to Cart Button Overflow]
-14. [BUG-014 – Add to Cart Position on Product Details]
-15. [BUG-015 – Checkout Button Incorrect Position]
-16. [BUG-016 – Quantity / Description Column Issue]
+1. BUG-001 – Incorrect Product Images
+2. BUG-002 – Wrong Product Details
+3. BUG-003 – Add to Cart on Product Details
+4. BUG-004 – Cart Badge Count Not Updated
+5. BUG-005 – Incorrect Product Details / ITEM NOT FOUND
+6. BUG-006 – Remove Button Not Working
+7. BUG-007 – Last Name Input Entered Into First Name Field
+8. BUG-008 – Last Name Field Does Not Accept Input
+9. BUG-009 – Checkout Continues Without Last Name
+10. BUG-010 – Incorrect Product Image
+11. BUG-011 – Cart Icon Incorrectly Positioned
+12. BUG-012 – Inconsistent Product Heading Alignment
+13. BUG-013 – Add to Cart Button Overflow
+14. BUG-014 – Add to Cart Position on Product Details
+15. BUG-015 – Checkout Button Incorrect Position
+16. BUG-016 – Quantity / Description Column Issue
 
 **Total: 16 documented defects**
 
@@ -218,7 +218,7 @@ The following defects were identified and documented during testing:
 
 ## Testing Workflow
 
-The project followed the following QA workflow:
+The project followed this QA workflow:
 
 ```text
 Test Planning
@@ -240,3 +240,45 @@ Test Execution Summary
 Test Summary Report
       ↓
 Regression Testing
+## Tools Used
+
+- Manual Testing
+- GitHub
+- Markdown
+- Google Chrome
+- Windows 11
+- SauceDemo
+- Test Case Documentation
+- Defect Reporting
+
+---
+
+## Project Purpose
+
+This project demonstrates practical Software Quality Assurance skills including:
+
+- Test planning
+- Test case design
+- Functional testing
+- Exploratory testing
+- Visual testing
+- Defect identification
+- Bug reporting
+- Test execution reporting
+- QA test summary preparation
+
+---
+
+## Disclaimer
+
+This project was created for QA learning and portfolio purposes.
+
+It does not contain confidential, proprietary, or client-owned information.
+
+---
+
+## Author
+
+**Marrium Ibrahim**
+
+Software Quality Assurance Engineer
