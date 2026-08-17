@@ -107,7 +107,7 @@ My goal is to contribute to software teams by identifying defects early, validat
 
 ##  Connect With Me
 
-* GitHub: **Marrium Ibrahim**
+* GitHub: **[MY GitHun](https://github.com/Marriumibrahim/QA-Portfolio)**
 * LinkedIn: **[My LinkedIn](https://www.linkedin.com/in/marrium-ibrahim-592a7b8b?utm_source=share_via&utm_content=profile&utm_medium=member_android)**
 
 ---
