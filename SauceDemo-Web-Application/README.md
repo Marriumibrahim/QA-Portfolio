@@ -2,9 +2,11 @@
 
 ## Project Overview
 
-This project demonstrates manual Software Quality Assurance testing of the SauceDemo e-commerce web application.
+This project demonstrates practical **Manual Software Quality Assurance testing** of the SauceDemo e-commerce web application.
 
 The project covers functional testing, exploratory testing, visual/UI testing, test execution, defect reporting, and test summary reporting.
+
+The objective was to validate core e-commerce workflows and identify functional, usability, and visual issues across different purpose-built application users.
 
 ---
 
@@ -16,60 +18,61 @@ The project covers functional testing, exploratory testing, visual/UI testing, t
 
 **Additional Test Users:**
 
-- `locked_out_user`
-- `problem_user`
-- `performance_glitch_user`
-- `error_user`
-- `visual_user`
+* `locked_out_user`
+* `problem_user`
+* `performance_glitch_user`
+* `error_user`
+* `visual_user`
 
 ---
 
 ## Testing Environment
 
-| Item | Details |
-|------|---------|
-| Browser | Google Chrome |
-| Operating System | Windows 11 |
-| Testing Type | Manual Testing |
-| Application | SauceDemo |
+| Item             | Details        |
+| ---------------- | -------------- |
+| Browser          | Google Chrome  |
+| Operating System | Windows 11     |
+| Testing Type     | Manual Testing |
+| Application      | SauceDemo      |
 
 ---
 
 ## Testing Objectives
 
-The objective of this project was to verify the functionality and user experience of the SauceDemo application.
+The objective of this project was to verify the functionality, usability, and visual consistency of the SauceDemo application.
 
 Testing covered:
 
-- User Login
-- Product Listing
-- Product Sorting
-- Product Details
-- Add to Cart
-- Remove from Cart
-- Shopping Cart
-- Checkout
-- Order Completion
-- Order Receipt / PDF Generation
-- User-Specific Behavior
-- Visual/UI Consistency
+* User Login
+* Product Listing
+* Product Sorting
+* Product Details
+* Add to Cart
+* Remove from Cart
+* Shopping Cart
+* Checkout
+* Order Completion
+* Order Receipt / PDF Generation
+* User-Specific Behavior
+* Visual/UI Consistency
+* Exploratory Testing
 
 ---
 
 ## Test Coverage
 
-| Module | Testing Coverage |
-|--------|------------------|
-| Login | Login and authentication behavior |
-| Products | Product listing, names, images and prices |
-| Sorting | Product sorting functionality |
-| Product Details | Product navigation and information |
-| Shopping Cart | Add, remove, cart count and product information |
-| Checkout | Customer information and validation |
-| Order Completion | Order submission and confirmation |
-| Order Receipt | Order details and PDF generation |
-| Exploratory Testing | Purpose-built SauceDemo users |
-| Visual Testing | Layout, alignment and positioning |
+| Module              | Testing Coverage                                       |
+| ------------------- | ------------------------------------------------------ |
+| Login               | Login and authentication behavior                      |
+| Products            | Product listing, names, images, and prices             |
+| Sorting             | Product sorting functionality                          |
+| Product Details     | Product navigation and information                     |
+| Shopping Cart       | Add, remove, cart count, and product information       |
+| Checkout            | Customer information and validation                    |
+| Order Completion    | Order submission and confirmation                      |
+| Order Receipt       | Order details and PDF generation                       |
+| Exploratory Testing | Purpose-built SauceDemo users                          |
+| Visual Testing      | Layout, alignment, positioning, and visual consistency |
 
 ---
 
@@ -77,16 +80,18 @@ Testing covered:
 
 The `standard_user` account was used as the baseline account for the planned functional test cases.
 
-| Metric | Result |
-|--------|--------:|
-| Planned Test Cases | 40 |
-| Executed | 40 |
-| Passed | 40 |
-| Failed | 0 |
-| Blocked | 0 |
-| Pass Rate | **100%** |
+| Metric             |   Result |
+| ------------------ | -------: |
+| Planned Test Cases |       40 |
+| Executed           |       40 |
+| Passed             |       40 |
+| Failed             |        0 |
+| Blocked            |        0 |
+| Pass Rate          | **100%** |
 
-All 40 planned functional test cases passed successfully using `standard_user`.
+**Result:** All 40 planned functional test cases passed successfully using `standard_user`.
+
+The additional purpose-built users were tested separately through exploratory, visual, authentication, and performance-observation activities.
 
 ---
 
@@ -94,36 +99,36 @@ All 40 planned functional test cases passed successfully using `standard_user`.
 
 Additional testing was performed using the purpose-built SauceDemo accounts.
 
-| User | Testing Focus | Result |
-|------|---------------|--------|
-| `standard_user` | Functional Testing | 40/40 Passed |
-| `locked_out_user` | Authentication | Expected lockout behavior |
-| `problem_user` | Exploratory Testing | 7 defects identified |
-| `performance_glitch_user` | Functional / Performance Observation | Functional flow passed |
-| `error_user` | Exploratory Testing | 2 documented defects |
-| `visual_user` | Visual/UI Testing | 7 visual defects identified |
+| User                      | Testing Focus                        | Result                      |
+| ------------------------- | ------------------------------------ | --------------------------- |
+| `standard_user`           | Functional Testing                   | 40/40 Passed                |
+| `locked_out_user`         | Authentication                       | Expected lockout behavior   |
+| `problem_user`            | Exploratory Testing                  | 7 defects identified        |
+| `performance_glitch_user` | Functional / Performance Observation | Functional flow passed      |
+| `error_user`              | Exploratory Testing                  | 2 documented defects        |
+| `visual_user`             | Visual/UI Testing                    | 7 visual defects identified |
 
 ---
 
 ## Defect Summary
 
-A total of **16 defects** were documented during testing.
+A total of **16 defects** were documented during exploratory and visual testing.
 
-| Severity | Number of Defects |
-|----------|------------------:|
-| High | 5 |
-| Medium | 9 |
-| Low | 2 |
-| **Total** | **16** |
+| Severity  | Number of Defects |
+| --------- | ----------------: |
+| High      |                 5 |
+| Medium    |                 9 |
+| Low       |                 2 |
+| **Total** |            **16** |
 
 ### Defect Distribution
 
-| User | Documented Defects |
-|------|-------------------:|
-| `problem_user` | 7 |
-| `error_user` | 2 |
-| `visual_user` | 7 |
-| **Total** | **16** |
+| User           | Documented Defects |
+| -------------- | -----------------: |
+| `problem_user` |                  7 |
+| `error_user`   |                  2 |
+| `visual_user`  |                  7 |
+| **Total**      |             **16** |
 
 ---
 
@@ -133,36 +138,36 @@ A total of **16 defects** were documented during testing.
 
 The baseline functional testing performed with `standard_user` achieved a **100% pass rate**.
 
-All 40 planned functional test cases passed.
+All 40 planned functional test cases passed successfully.
 
 ### Exploratory Testing
 
-Testing the purpose-built SauceDemo users revealed issues that were not observed during the baseline testing.
+Testing the purpose-built SauceDemo users revealed issues that were not observed during the baseline functional testing.
 
 Defects were identified in areas including:
 
-- Product navigation
-- Product information
-- Shopping Cart
-- Checkout validation
-- Product behavior
+* Product navigation
+* Product information
+* Shopping Cart
+* Checkout validation
+* Product behavior
 
 ### Visual Testing
 
 Testing with `visual_user` identified several UI and visual issues involving:
 
-- Product images
-- Cart icon positioning
-- Product heading alignment
-- Add to Cart button positioning
-- Checkout button positioning
-- Shopping Cart layout
+* Product images
+* Cart icon positioning
+* Product heading alignment
+* Add to Cart button positioning
+* Checkout button positioning
+* Shopping Cart layout
 
 ### Performance Observation
 
-`performance_glitch_user` showed noticeable delays during some navigation actions compared with `standard_user`.
+Testing with `performance_glitch_user` showed noticeable delays during some navigation actions compared with `standard_user`.
 
-This was recorded as a performance observation rather than a confirmed performance defect because formal response-time measurements were not performed.
+This was documented as a **performance observation rather than a confirmed performance defect**, because formal response-time measurements and performance benchmarking were not performed.
 
 ---
 
@@ -172,9 +177,9 @@ This was recorded as a performance observation rather than a confirmed performan
 
 Although the baseline functional testing achieved a **100% pass rate**, additional exploratory and visual testing identified **16 defects**, including **5 High severity defects**.
 
-The application should not be considered ready for release until the High severity defects are fixed and successfully retested.
+Based on the testing performed, the application should **not be considered ready for release** until the High severity defects are fixed and successfully retested.
 
-Regression testing should also be performed after defect fixes.
+Regression testing should also be performed after defect fixes to verify that existing functionality remains stable.
 
 ---
 
@@ -182,12 +187,12 @@ Regression testing should also be performed after defect fixes.
 
 ### Test Documentation
 
-- [Test Plan](Test-Plan.md)
-- [Test Scenarios](Test-Scenarios.md)
-- [Test Cases](Test-Cases.md)
-- [Application Study](Application-Study.md)
-- [Test Execution Summary](Test-Execution-Summary.md)
-- [Test Summary Report](Test-Summary-Report.md)
+* [Test Plan](Test-Plan.md)
+* [Test Scenarios](Test-Scenarios.md)
+* [Test Cases](Test-Cases.md)
+* [Application Study](Application-Study.md)
+* [Test Execution Summary](Test-Execution-Summary.md)
+* [Test Summary Report](Test-Summary-Report.md)
 
 ### Bug Reports
 
@@ -246,14 +251,14 @@ Regression Testing
 
 ## Tools Used
 
-- Manual Testing
-- GitHub
-- Markdown
-- Google Chrome
-- Windows 11
-- SauceDemo
-- Test Case Documentation
-- Defect Reporting
+* Manual Testing
+* SauceDemo
+* Google Chrome
+* Windows 11
+* GitHub
+* Markdown
+* Test Case Documentation
+* Defect Reporting
 
 ---
 
@@ -261,15 +266,18 @@ Regression Testing
 
 This project demonstrates practical Software Quality Assurance skills including:
 
-- Test planning
-- Test case design
-- Functional testing
-- Exploratory testing
-- Visual testing
-- Defect identification
-- Bug reporting
-- Test execution reporting
-- QA test summary preparation
+* Test planning
+* Test scenario design
+* Test case design
+* Functional testing
+* Exploratory testing
+* Visual/UI testing
+* Defect identification
+* Bug reporting
+* Test execution
+* Test result analysis
+* QA test summary preparation
+* Release-readiness assessment
 
 ---
 
