@@ -1,19 +1,18 @@
-# QA-Portfolio
-Software Quality Assurance Portfolio | Manual Testing | Bug Reports | Test Cases | Regression Testing
-
-# Hi, I'm Marrium Ibrahim
+# Hi, I'm Marrium Ibrahim 👋
 
 ## Software Quality Assurance Engineer
 
-Welcome to my Software Quality Assurance portfolio.
+Software Quality Assurance Engineer with **3+ years of professional experience in manual testing of enterprise web and mobile applications**.
 
-I have **3+ years of professional experience** in manual testing of enterprise web and mobile applications, specializing in functional, regression, smoke, sanity, and exploratory testing. I am currently refreshing and expanding my QA skills through hands-on practice, crowdtesting, API testing, and professional certification preparation.
+My experience includes functional, regression, smoke, sanity, exploratory, and integration testing, along with test case design, defect reporting, retesting, and QA documentation.
 
-This repository showcases practical QA artifacts that demonstrate my testing approach, documentation skills, and understanding of the complete software testing lifecycle.
+I am currently strengthening my QA skills through hands-on testing projects, API testing with Postman, and continuous practical learning.
 
 ---
 
-#  Skills
+##  Skills
+
+### Testing
 
 * Manual Testing
 * Functional Testing
@@ -21,67 +20,96 @@ This repository showcases practical QA artifacts that demonstrate my testing app
 * Smoke Testing
 * Sanity Testing
 * Exploratory Testing
+* Integration Testing
 * Test Case Design
 * Test Execution
 * Bug Reporting
 * Bug Verification & Retesting
-* SQL Data Validation
-* Agile Testing
+
+### API Testing
+
+* REST API Testing
+* Postman
+* HTTP Methods: GET, POST, PUT, PATCH, DELETE
+* Status Code Validation
+* Response Validation
+* Header Validation
+* JSON Validation
+* Environment Variables
+* Request Chaining
+* Positive & Negative Testing
+
+### Tools & Technologies
+
 * JIRA
 * HP UFT
-* Postman (Learning)
+* SQL
+* Oracle
+* GitHub
+* Postman
 
 ---
 
 #  Portfolio Projects
 
-## 🎓 Student Management System
+##  SauceDemo — Web Application Testing
 
-This project demonstrates QA documentation for a student management application.
+A hands-on QA project based on the **SauceDemo** e-commerce web application.
 
-Artifacts include:
+The project demonstrates practical web application testing including:
 
-* Test Plan
-* Test Scenarios
-* Test Cases
-* Bug Reports
-* Regression Checklist
-* Exploratory Testing Notes
-* Test Summary Report
+* Test case design
+* Functional testing
+* Exploratory testing
+* Regression testing
+* Bug reporting
+* Test execution
+* UI and workflow validation
 
----
-
-##  E-Commerce Website
-
-This project demonstrates testing activities for an online shopping application.
-
-Artifacts include:
-
-* Test Plan
-* Test Cases
-* Bug Reports
-* Regression Checklist
-* Exploratory Testing Notes
+🔗 **[View SauceDemo Project](./SauceDemo-Web-Application)**
 
 ---
 
-##  API Testing
+## 🔌 API Testing with Postman
 
-* Postman Collections
-* API Test Cases
-* API Bug Reports
+A hands-on REST API testing project using **JSONPlaceholder** and Postman.
+
+The project includes executable Postman requests and documented test scenarios covering:
+
+* GET
+* POST
+* PUT
+* PATCH
+* DELETE
+* Status code validation
+* Response body validation
+* JSON validation
+* Content-Type validation
+* Query parameter testing
+* Environment variables
+* Request chaining
+* Bearer token/header testing
+* Positive and negative testing
+
+The project contains an executable Postman collection, test cases, and test execution results.
+
+🔗 **[View API Testing Project](./API-Testing-Postman)**
 
 ---
 
-##  SQL Validation
+#  QA Focus
 
-* Sample SQL Validation Queries
-* Database Verification Examples
+I am focused on building strong, practical QA skills through hands-on testing and producing clear, structured testing documentation.
+
+My goal is to contribute to software teams by identifying defects early, validating requirements, improving product quality, and ensuring reliable user experiences.
 
 ---
 
-#  Objective
+##  Connect With Me
 
-The purpose of this portfolio is to demonstrate my practical Software Quality Assurance skills through well-structured testing documentation, professional bug reports, regression testing, and real-world QA practices.
+* GitHub: **Marrium Ibrahim**
+* LinkedIn: **Add your LinkedIn profile here**
 
-> **Note:** All projects in this portfolio are created for learning and portfolio purposes. They do not contain any confidential, proprietary, or client-owned information.
+---
+
+> **Note:** Portfolio projects are created for learning and demonstration purposes and do not contain confidential, proprietary, or client-owned information.
