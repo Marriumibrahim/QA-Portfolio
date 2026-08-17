@@ -90,3 +90,21 @@ Detailed test scenarios and expected results are documented in:
 - Request chaining
 - Defect-oriented thinking
 - QA documentation
+
+- ## Test Execution Summary
+
+All documented API requests were executed in Postman and validated using Postman test scripts.
+
+| Request | Result |
+|---|---|
+| GET - Single Post | PASS |
+| GET - Posts by User | PASS |
+| POST - Create Post | PASS |
+| PUT - Update Post | PASS |
+| PATCH - Update Post | PASS |
+| DELETE - Delete Post | PASS |
+| GET - Request Chaining | PASS |
+
+### Overall Result
+
+**7/7 API request scenarios passed successfully.**
