@@ -1,29 +1,92 @@
 # API Testing with Postman
 
-API testing project created using Postman.
+## Project Overview
+
+This project demonstrates manual API testing using Postman against the JSONPlaceholder REST API.
+
+The project covers CRUD operations, response validation, status code verification, header validation, environment variables, positive and negative testing, and request chaining.
 
 ## Application Under Test
 
-JSONPlaceholder REST API
+**JSONPlaceholder**
 
-## Tools
+A free fake REST API used for testing and development.
+
+**Base URL:**  
+https://jsonplaceholder.typicode.com
+
+## Tools & Technologies
 
 - Postman
 - JavaScript
+- REST API
+- JSON
 - GitHub
 
 ## Testing Covered
+
+### HTTP Methods
 
 - GET
 - POST
 - PUT
 - PATCH
 - DELETE
-- Query Parameters
-- Environment Variables
-- Response Validation
-- Status Code Validation
-- Header Validation
-- Bearer Token Testing
-- Request Chaining
-- Positive and Negative Testing
+
+### Validation
+
+- HTTP status codes
+- Response body
+- Response properties
+- Response headers
+- Content-Type
+- Empty responses
+- JSON response structure
+
+### API Testing Techniques
+
+- Positive testing
+- Negative testing
+- Query parameter testing
+- Environment variables
+- Request chaining
+- Bearer token/header validation
+
+## Test Scenarios
+
+| Area | Scenarios |
+|---|---|
+| GET | Retrieve single post, filter posts by user |
+| POST | Create post and validate response |
+| PUT | Replace existing post |
+| PATCH | Partially update post |
+| DELETE | Delete post and validate response |
+| Authentication | Validate presence/absence of Bearer token |
+| Request Chaining | Extract ID and reuse it in another request |
+
+## Postman Collection
+
+The complete Postman collection is included in this repository:
+
+`API-Testing-JSONPlaceholder.postman_collection.json`
+
+It contains executable requests and Postman test scripts.
+
+## Test Cases
+
+Detailed test scenarios and expected results are documented in:
+
+`Test-Cases.md`
+
+## Key Skills Demonstrated
+
+- REST API testing
+- Postman
+- Test case design
+- JavaScript assertions
+- API response validation
+- Positive and negative testing
+- Environment variable management
+- Request chaining
+- Defect-oriented thinking
+- QA documentation
